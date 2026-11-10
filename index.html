@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width,initial-scale=1" name="viewport"/>
+  <title>
+   CEO360 | Interactive Prototype
+  </title>
+  <link href="styles.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <aside>
+   <div class="brand">
+    ◈ CEO360
+    <small>
+     INTELLIGENT COMMAND CENTRE
+    </small>
+   </div>
+   <div class="group">
+    Command
+   </div>
+   <button class="nav active" data-page="overview">
+    ◫ Executive Home
+   </button>
+   <button class="nav" data-page="briefing">
+    ✦ Morning Briefing
+   </button>
+   <button class="nav" data-page="decisions">
+    ⚖ Decision Centre
+   </button>
+   <button class="nav" data-page="tasks">
+    ☑ Task Centre
+   </button>
+   <div class="group">
+    Performance
+   </div>
+   <button class="nav" data-page="finance">
+    ▤ Finance
+   </button>
+   <button class="nav" data-page="sales">
+    ▥ Sales &amp; Customers
+   </button>
+   <button class="nav" data-page="operations">
+    ⚙ Operations
+   </button>
+   <div class="group">
+    Execution &amp; Intelligence
+   </div>
+   <button class="nav" data-page="strategy">
+    ◎ Strategy Map
+   </button>
+   <button class="nav" data-page="enterprise">
+    ▦ Enterprise Map
+   </button>
+   <button class="nav" data-page="scenario">
+    ◈ Scenario Studio
+   </button>
+   <button class="nav" data-page="advisor">
+    ✧ AI Advisor
+   </button>
+   <div class="group">
+    Administration
+   </div>
+   <button class="nav" data-page="quality">
+    ◉ Data Quality
+   </button>
+   <button class="nav" data-page="integrations">
+    ↔ Integrations
+   </button>
+  </aside>
+  <div class="app">
+   <header class="top">
+    <strong id="headerTitle">
+     Executive Home
+    </strong>
+    <div class="controls">
+     <span class="pill">
+      DEMO ONLY
+     </span>
+     <select aria-label="Demo business" id="tenant">
+      <option value="retail">
+       Kijani Distribution Ltd
+      </option>
+      <option value="services">
+       Amani Advisory Group
+      </option>
+      <option value="factory">
+       Ubuntu Manufacturing Co
+      </option>
+     </select>
+     <select aria-label="Reporting period" id="period">
+      <option value="30">
+       Last 30 days
+      </option>
+      <option value="90">
+       Last 90 days
+      </option>
+      <option value="365">
+       Last 12 months
+      </option>
+     </select>
+    </div>
+   </header>
+   <main>
+    <div class="notice">
+     Prototype environment — all businesses, metrics, decisions and responses are fictional. Actions change the local demonstration state only. No live integrations, authentication or AI service.
+    </div>
+    <div id="view">
+    </div>
+   </main>
+   <footer>
+    CEO360 v0.1 interactive concept · Product discovery prototype · No customer data
+   </footer>
+  </div>
+  <script src="script.js">
+  </script>
+ </body>
+</html>
+
